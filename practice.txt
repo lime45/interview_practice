@@ -1,0 +1,30 @@
+Here’s a short “bank” of Python interview‑style questions you can work through. I grouped them by topic so you can focus on the areas you want to sharpen most.
+
+📚 Core Language & Data Structures
+List vs. Tuple vs. Set vs. Dictionary – When would you choose each, and what guarantees does Python give about mutability?
+Deep copy vs. shallow copy – Write a snippet that correctly deep‑copies a nested list of lists.
+collections module – What’s the difference between defaultdict, Counter, and OrderedDict (pre‑3.7)?
+*args and **kwargs – How do they work, and how would you use them to wrap a function that accepts a variable signature?
+🧩 Algorithms & Problem Solving
+Binary Search – Implement it iteratively and recursively. What’s the time/space complexity?
+Breadth‑First Search on a Graph – Write a function that returns the shortest path (as a list of nodes) between two nodes in an un‑weighted graph.
+Two‑Sum / Three‑Sum – Given a list, find all unique triplets that sum to a target. What’s the optimal complexity?
+String Rotation – How can you determine if one string is a rotation of another in O(n) time?
+🐍 Object‑Oriented Programming
+Magic (Dunder) Methods – Implement __repr__, __eq__, and __lt__ for a simple Student class with name and gpa.
+Inheritance & Polymorphism – Write a base class Shape with an abstract area() method, then subclass Rectangle and Circle. Show how you’d calculate total area for a list of shapes.
+🎨 Advanced Features
+Decorators – Create a decorator @timer that prints how long a function takes to run.
+Generators & yield – Write a generator that yields Fibonacci numbers indefinitely, and another that lazily reads lines from a huge file.
+with statement – Write a context manager that temporarily redirects stdout to a string buffer.
+Metaclasses – Briefly explain what a metaclass is and give a simple example of its use (e.g., enforcing a naming convention for attributes).
+🧹 Error Handling & Testing
+Exception Hierarchy – Which built‑in exception should you raise for “invalid argument” vs. “file not found”? How would you write a custom exception?
+try/except/else/finally – Show a pattern where you need cleanup code that runs only if an exception was not raised.
+Unit Testing with unittest – Write a test case for the two_sum function from #7 that checks both positive and negative scenarios.
+How to use them
+Pick a handful each day and try to answer without looking at anything.
+Check your work by writing a quick script or using an online IDE.
+If you get stuck, look up the solution, note the key insight, and then revisit the problem later to reinforce it.
+Ask for hints or answers to any of the above if you’d like me to walk through a solution.
+Hope this helps you feel ready for the interview! Let me know if you want detailed answers or more questions on a specific topic. 🚀
